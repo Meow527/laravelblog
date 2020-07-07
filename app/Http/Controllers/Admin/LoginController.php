@@ -11,7 +11,7 @@ class LoginController extends Controller
         return view('admin.login');
     }
 
-    //产生验证码 并且存入session
+    //产生验证码 并且存入session16549515465
     public function create_code(Request $request)
     {
         $validateCode = new ValidateCode;
